@@ -16,7 +16,7 @@ public class CreateCarRequest implements Serializable {
 
 	private String model;
 	
-	private int customerId;
+	private long customerId;
 	
 	private String carImage;
 	

@@ -1,4 +1,4 @@
-package com.example.carmanagement.dao;
+package com.example.carmanagement.repository;
 
 import java.util.List;
 
