@@ -52,12 +52,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>carwash-common-ms</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 		<!-- exclude junit 4 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

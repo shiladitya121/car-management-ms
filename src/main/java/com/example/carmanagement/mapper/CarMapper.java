@@ -9,7 +9,7 @@ import com.example.carmanagement.dto.CreateCarRequest;
 import com.example.carmanagement.dto.GetCarResponse;
 import com.example.carmanagement.dto.GetCarResponseDto;
 import com.example.carmanagement.entity.Car;
-import com.example.common.utils.IdGenerator;
+import com.example.carmanagement.utils.IdGenerator;
 
 @Component
 public class CarMapper {
