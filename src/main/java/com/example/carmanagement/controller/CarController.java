@@ -35,13 +35,4 @@ public class CarController {
 		return new ResponseEntity<>(carResponse, HttpStatus.OK);
 	}
 	
-//	public HttpHeaders prepareHeader() {
-//		HttpHeaders responseHeaders = new HttpHeaders();
-//		responseHeaders.set("Access-Control-Allow-Origin", "*");
-//		responseHeaders.set("Access-Control-Allow-Headers", "*");
-//		responseHeaders.set("Content-type", MediaType.APPLICATION_JSON_VALUE);
-//		return responseHeaders;
-//	}
-	
-	
 }

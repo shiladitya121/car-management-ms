@@ -17,7 +17,7 @@ public class CorsConfig {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/api/car-management/v1/active/{customerId}")
+				registry.addMapping("/api/car-management/**")
 						.allowedOrigins("http://localhost:3000");
 			}
 		};
